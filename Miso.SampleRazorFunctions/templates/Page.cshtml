@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Sticky Footer Template for Bootstrap</title>
+</head>
+
+<body>
+    <h1>Sample</h1>
+
+    <div>NameInQuery:@Model.NameInQuery</div>
+    <div>NameInBody:@Model.NameInBody</div>
+
+    @for
+    <form method="get">
+        name: <input type="text" value="" name="name" />
+        <input type="submit" value="GET" />
+    </form>
+
+    <form method="post">
+        name: <input type="text" value="" name="name" />
+        <input type="submit" value="POST" />
+    </form>
+</body>
+</html>
